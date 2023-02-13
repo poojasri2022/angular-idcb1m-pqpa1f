@@ -25,6 +25,8 @@ export class ProductDetailsComponent {
   addToCart(product:Product)
   {
     this.cart.addItems(product)
+    // This alert function is added for testing purpose only
+    alert('product has been added successfully');
   }
 
 }
